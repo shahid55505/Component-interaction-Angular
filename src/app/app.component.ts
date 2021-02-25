@@ -3,8 +3,20 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [`
+  
+  div{
+
+    background: gray;
+    padding: 20px;
+  }
+  
+  `]
 })
 export class AppComponent {
   title = 'demo';
+  public name="You are Shahid Khan";
+  public message=" ";
+  
+
 }
